@@ -1,0 +1,14 @@
+name: "container action"
+description: "aH vid bekngang"
+Author: "David Heang"
+inputs:
+    myInput:
+      description: 'Greeting to you'
+      required: true
+      default: "Awesome guru"
+outputs:
+  myOutput:
+    description: "total memory"
+run:
+  using: "docker"
+  image: "Dockerfile"
