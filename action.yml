@@ -1,14 +1,14 @@
-name: "container action"
-description: "aH vid bekngang"
-Author: "David Heang"
+name: 'my first container action'
+description: 'A cloud guru'
+author: 'Chad Crowell'
 inputs:
-    myInput:
-      description: 'Greeting to you'
-      required: true
-      default: "Awesome guru"
+  myInput:
+    description: 'greeting to use'
+    required: true
+    default: 'Awesome Guru'
 outputs:
   myOutput:
-    description: "total memory"
-run:
-  using: "docker"
-  image: "Dockerfile"
+    description: 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
